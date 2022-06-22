@@ -1,0 +1,24 @@
+/* NAVBAR */
+
+nav .right ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #00d9db;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+  position: relative;
+  top: 5px;
+}
+
+nav .right ul li:not(:last-child):hover::after {
+  width: 100%;
+}
+
+nav .resume {
+  border: 2px solid #00d9db;
+  padding: 5px 20px;
+  border-radius: 8px;
+}
+

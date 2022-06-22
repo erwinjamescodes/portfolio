@@ -1,0 +1,68 @@
+.techstack--wrapper h4 {
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+.logos--wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+
+.logo--text--holder {
+  display: flex;
+  flex-basis: 8%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+
+.logo--text--holder h5 {
+  opacity: 0;
+  color: #949494;
+  font-weight: 700;
+  font-size: 10px;
+  transition: all 1s ease;
+  margin-top: 2px;
+}
+
+.logo--text--holder:hover h5 {
+  opacity: 1;
+}
+
+.logo--container {
+  height: 75px;
+  width: 75px;
+  background-color: rgba(212, 212, 212, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo--container {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.logo--container img {
+  height: 70%;
+  transition: all 0.5s;
+}
+
+.logo--container:hover img {
+  transform: scale(1.1);
+}
+
+#bootstrap,
+#github,
+#vscode,
+#figma {
+  height: 60%;
+}
