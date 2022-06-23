@@ -19,15 +19,15 @@ import Github from "../images/github.png";
 const About = () => {
   return (
     <section name="about" className="about pt-[100px] pb-[50px] w-full h-auto ">
-      <div className="about-wrapper w-[80%] my-0 mx-auto">
+      <div className="about-wrapper w-[90%] md:w-[80%] my-0 mx-auto">
         <h3 className="text-3xl mb-[20px] font-medium text-[#0a192f]">
           About Me
         </h3>
         <div className="content lg:grid grid-cols-5 gap-8">
           <div className="content--left mb-[20px] col-span-3 ">
             <h4 className="about--text font-bold mb-[12px] ">
-              Hello, I am Erwin James! I enjoy transforming plans, designs and ideas
-              into reality.
+              Hello, I am Erwin James! I enjoy transforming plans, designs and
+              ideas into reality.
             </h4>
             <p className="pr-[16px]">
               Being an Urban Planner by profession, I ventured on a mission to
@@ -41,12 +41,12 @@ const About = () => {
               Everything just turned digital.
             </p>
             <p className="pr-[16px] mt-[12px]">
-              Today, my mission still remains, but I am more focused now on developing
-              beautifully designed websites and web applications that foster
-              seamless and worthwhile digital community experiences. Hungry to
-              further enhance my knowledge on this field, I am now open to
-              working in environments where I can learn more, grow more, and
-              contribute better.
+              Today, my mission still remains, but I am more focused now on
+              developing beautifully designed websites and web applications that
+              foster seamless and worthwhile digital community experiences.
+              Hungry to further enhance my knowledge on this field, I am now
+              open to working in environments where I can learn more, grow more,
+              and contribute better.
             </p>
           </div>
           <div className="content--right col-span-2">

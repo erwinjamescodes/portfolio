@@ -12,7 +12,7 @@ const Projects = () => {
       className="projects--contact--container py-[50px] w-full h-auto bg-[#fcfcfc]"
     >
       <div className="bg--container">
-        <div className="projects--wrapper w-[80%] my-0 mx-auto py-[50px] ">
+        <div className="projects--wrapper w-[90%] md:w-[80%] my-0 mx-auto py-[50px] ">
           <h3 className="text-3xl mb-[20px] font-medium text-[#0a192f]">
             Projects
           </h3>

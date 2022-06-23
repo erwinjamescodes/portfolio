@@ -7,7 +7,7 @@ const Contact = () => {
       name="contact"
       className="w-full h-auto pt-[100px] pb-[100px] projects--contact--container"
     >
-      <div className="contact--wrapper w-[80%] h-[100%] mx-auto">
+      <div className="contact--wrapper w-[90%] md:w-[80%] h-[100%] mx-auto">
         <h3 className="text-3xl mb-[20px] font-medium text-[#0a192f]">
           Contact
         </h3>

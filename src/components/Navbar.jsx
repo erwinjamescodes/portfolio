@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="nav--container fixed w-full h-[70px] flex justify-between items-center bg-[#010812] text-white z-10">
-      <div className="nav--wrapper flex justify-between items-center w-[100%] md:w-[90%] h-[100%] mx-[auto] p-8">
+      <div className="nav--wrapper flex justify-between items-center w-[100%] md:w-[90%] h-[100%] mx-[auto] p-4 md:p-8">
         <Link to="home" smooth={true} duration={500}>
           <div className="left flex justify-between items-center gap-2 cursor-pointer">
             <img src={EJLogo} alt="logo" style={{ width: "35px" }} />
