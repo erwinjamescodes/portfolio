@@ -68,7 +68,7 @@ const HeroSection = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="linkedin py-[5px] px-[10px] text-xs md:text-lg flex gap-[6px] items-center cursor-pointer font-medium bg-[#00d9db] text-black rounded-md hover:bg-[#00b8bb] duration-300">
+            <button className="linkedin py-[5px] px-[10px] text-xs md:text-lg flex gap-[6px] items-center cursor-pointer font-medium bg-[#00d9db] text-black rounded-md hover:bg-[#00b8bb] duration-300 border-[2px] border-solid border-[#00d9db]">
               <i className="fa-brands fa-linkedin" />
               Let's Connect!
             </button>
