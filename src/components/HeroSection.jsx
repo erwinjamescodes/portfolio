@@ -63,11 +63,16 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="button-wrapper flex gap-[10px]">
-          <button className="linkedin py-[5px] px-[10px] text-xs md:text-lg flex gap-[6px] items-center cursor-pointer font-medium bg-[#00d9db] text-black rounded-md hover:bg-[#00b8bb] duration-300">
-            <i className="fa-brands fa-linkedin" />
-            Let's Connect!
-          </button>
-
+          <a
+            href="https://www.linkedin.com/in/erwin-james-caluag-6b2304150/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="linkedin py-[5px] px-[10px] text-xs md:text-lg flex gap-[6px] items-center cursor-pointer font-medium bg-[#00d9db] text-black rounded-md hover:bg-[#00b8bb] duration-300">
+              <i className="fa-brands fa-linkedin" />
+              Let's Connect!
+            </button>
+          </a>
           <Link to="projects" smooth={true} duration={500}>
             <button className="projects-btn py-[5px] px-[10px] text-xs md:text-lg flex gap-[6px] items-center cursor-pointer font-medium text-[#00d9db] rounded-md border-[2px] border-solid border-[#00d9db] hover:bg-[#18273b] duration-300">
               <i className="fa-solid fa-laptop-code"></i>
