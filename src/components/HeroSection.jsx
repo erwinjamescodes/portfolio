@@ -43,7 +43,7 @@ const HeroSection = () => {
         <h3 className="title--intro text-2xl sm:text-3xl md:text-3xl">
           Hi, my name is
         </h3>
-        <h1 className="title--name text-[#00d9db] text-5xl sm:text-7xl md:text-8xl font-medium pt-2 md:ml-[-5px]">
+        <h1 className="title--name text-[#00d9db] text-4xl sm:text-7xl md:text-8xl font-medium pt-2 md:ml-[-5px]">
           Erwin James.
         </h1>
 
