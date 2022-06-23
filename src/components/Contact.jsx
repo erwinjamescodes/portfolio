@@ -29,15 +29,33 @@ const Contact = () => {
               <p className=" mt-[16px]">Email:</p>
               <p className="font-bold ">egcaluag@gmail.com</p>
               <div className="contact--social--holder mt-[12px] flex gap-[8px]">
-                <div className="icon-holder h-[35px] w-[35px] bg-[#e6e6e6] rounded-[50%] flex items-center justify-center cursor-pointer ">
-                  <i className="fa-brands fa-linkedin-in"></i>
-                </div>
-                <div className="icon-holder h-[35px] w-[35px] bg-[#e6e6e6] rounded-[50%] flex items-center justify-center cursor-pointer ">
-                  <i className="fa-brands fa-github"></i>
-                </div>
-                <div className="icon-holder h-[35px] w-[35px] bg-[#e6e6e6] rounded-[50%] flex items-center justify-center cursor-pointer ">
-                  <i className="fa-brands fa-twitter"></i>
-                </div>
+                <a
+                  href="https://www.linkedin.com/in/erwin-james-caluag-6b2304150/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="icon-holder h-[35px] w-[35px] bg-[#e6e6e6] rounded-[50%] flex items-center justify-center cursor-pointer ">
+                    <i className="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/erwinjamescodes"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="icon-holder h-[35px] w-[35px] bg-[#e6e6e6] rounded-[50%] flex items-center justify-center cursor-pointer ">
+                    <i className="fa-brands fa-github"></i>
+                  </div>
+                </a>
+                <a
+                  href="https://twitter.com/erwinjamescodes"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="icon-holder h-[35px] w-[35px] bg-[#e6e6e6] rounded-[50%] flex items-center justify-center cursor-pointer ">
+                    <i className="fa-brands fa-twitter"></i>
+                  </div>
+                </a>
               </div>
             </div>
           </div>

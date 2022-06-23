@@ -26,8 +26,9 @@ const Dadjoke = () => {
         </h3>
         <p className="text-center w-[85%] md:w-[50%] mx-auto text-sm md:text-base ">
           I greatly appreciate you for taking the time to visit my portfolio
-          website. Before you leave, and to show my appreciation, let me try to
-          put a smile on your face!
+          website. I hope you enjoyed browsing through my sample projects. To
+          show my appreciation, please allow me to try to put a smile on your
+          face before you leave!
         </p>
         <div className="flex flex-col items-center justify-center text-center">
           <div className="punchline--container h-[100px] px-[12px] w-[85%] md:w-[60%] flex items-center justify-center bg-[#f7f7f7] my-[20px] rounded-md shadow-md">

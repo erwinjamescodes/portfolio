@@ -77,15 +77,33 @@ const HeroSection = () => {
         </div>
 
         <div className="socials hidden md:flex">
-          <div className="social--container">
-            <i className="fa-brands fa-linkedin-in"></i>
-          </div>
-          <div className="social--container">
-            <i className="fa-brands fa-github"></i>
-          </div>
-          <div className="social--container">
-            <i className="fa-brands fa-twitter"></i>
-          </div>
+          <a
+            href="https://www.linkedin.com/in/erwin-james-caluag-6b2304150/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="social--container">
+              <i className="fa-brands fa-linkedin-in"></i>
+            </div>
+          </a>
+          <a
+            href="https://github.com/erwinjamescodes"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="social--container">
+              <i className="fa-brands fa-github"></i>
+            </div>
+          </a>
+          <a
+            href="https://twitter.com/erwinjamescodes"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="social--container">
+              <i className="fa-brands fa-twitter"></i>
+            </div>
+          </a>
         </div>
       </div>
     </main>

@@ -26,25 +26,27 @@ const About = () => {
         <div className="content lg:grid grid-cols-5 gap-8">
           <div className="content--left mb-[20px] col-span-3 ">
             <h4 className="about--text font-bold mb-[12px] ">
-              Hello! I am Erwin James and I enjoy creating things that live on
-              the internet.
+              Hello, I am Erwin James! I enjoy transforming plans, designs and ideas
+              into reality.
             </h4>
             <p className="pr-[16px]">
-              Being an Urban Planner by profession, I have always been in a
-              mission to develop solutions to make smart and resilient
+              Being an Urban Planner by profession, I ventured on a mission to
+              search for noble solutions to make smarter and more resilient
               communities – an endless quest for technological innovations which
               eventually led me to the fascinating world of Web Development.
             </p>
             <p className="pr-[16px] mt-[12px] ital">
-              After all, the web is just another form of our communities. Everything just turned digital.
+              Well, the web, after all, is just an evolved form of the
+              communities that we know. We connect, we communicate, we interact.
+              Everything just turned digital.
             </p>
             <p className="pr-[16px] mt-[12px]">
-              Today, my mission remains, but it is now focused on developing
+              Today, my mission still remains, but I am more focused now on developing
               beautifully designed websites and web applications that foster
-              seamless and worthwhile digital community experience. Hungry to
-              further enhance my skills in this field, I am now open to working in
-              environments where I can learn more, grow more, and contribute
-              better.
+              seamless and worthwhile digital community experiences. Hungry to
+              further enhance my knowledge on this field, I am now open to
+              working in environments where I can learn more, grow more, and
+              contribute better.
             </p>
           </div>
           <div className="content--right col-span-2">
