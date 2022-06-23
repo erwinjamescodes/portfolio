@@ -145,9 +145,9 @@ const Projects = () => {
                     components, this attempt to replicate Facebook’s user
                     interface features an option to switch easily between dark
                     and light modes. In addition to this, clicking the “add”
-                    button also triggers a modal for creating new posts. As the
-                    project is still under development, displaying new posts is
-                    still not available at this moment.
+                    button also triggers a modal for creating new posts.
+                    However, as the project is still under development,
+                    displaying new posts is still not available at this moment.
                   </span>
                   <div className="buttons-holder mt-[8px] flex gap-[8px]">
                     <a
