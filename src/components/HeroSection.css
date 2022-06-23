@@ -26,9 +26,9 @@
   transition: all 0.5s ease;
 }
 
-/* .social--container:hover {
-  background-color: #d0d1c7;
-} */
+.social--container:hover {
+  background-color: #e7e57c;
+}
 
 .social--container i {
   color: black;

@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 
 const HeroSection = () => {
   const [text, setText] = useState("");
+
   useEffect(() => {
     const texts = [
       "Urban Planner.        ",
@@ -24,7 +25,6 @@ const HeroSection = () => {
       currentText = texts[count];
       letter = currentText.slice(0, ++index);
 
-      // document.querySelector(".list--description").textContent = letter;
       setText(letter);
       if (letter.length === currentText.length) {
         count++;
@@ -43,7 +43,7 @@ const HeroSection = () => {
         <h3 className="title--intro text-2xl sm:text-3xl md:text-3xl">
           Hi, my name is
         </h3>
-        <h1 className="title--name text-[#00d9db] text-5xl sm:text-7xl md:text-8xl font-medium pt-2 ml-[-2px]">
+        <h1 className="title--name text-[#00d9db] text-5xl sm:text-7xl md:text-8xl font-medium pt-2 md:ml-[-5px]">
           Erwin James.
         </h1>
 

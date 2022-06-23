@@ -14,6 +14,7 @@ import Mui from "../images/MUI.png";
 import ReactLogo from "../images/react.png";
 import Tailwind from "../images/Tailwind.png";
 import VsCodeLogo from "../images/vscode.png";
+import Github from "../images/github.png";
 
 const About = () => {
   return (
@@ -25,23 +26,25 @@ const About = () => {
         <div className="content lg:grid grid-cols-5 gap-8">
           <div className="content--left mb-[20px] col-span-3 ">
             <h4 className="about--text font-bold mb-[12px] ">
-              Hello! Thank you for visiting my page. Please feel free to take a
-              look around.
+              Hello! I am Erwin James and I enjoy creating things that live on
+              the internet.
             </h4>
             <p className="pr-[16px]">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
-              voluptatum, minus modi unde ad sunt iste at obcaecati tempore
-              libero aliquam quia neque eaque expedita veritatis tempora! Quos
-              ipsa soluta neque minus repellendus inventore, pariatur eos velit
-              distinctio! Aspernatur, dolorem. Delectus ab quas dolores
-              perspiciatis ipsam culpa pariatur assumenda ex numquam eos
-              corrupti voluptatem asperiores maiores, labore iusto, porro, nam
-              excepturi distinctio nesciunt voluptatibus fugiat necessitatibus
-              est doloribus ea. Accusantium assumenda corrupti voluptates
-              obcaecati voluptatibus tempora reiciendis tenetur error! Aperiam,
-              laboriosam nulla. Minus officiis rem dolorem impedit adipisci,
-              explicabo laudantium nostrum pariatur quisquam alias qui voluptas
-              iusto excepturi modi mollitia?
+              Being an Urban Planner by profession, I have always been in a
+              mission to develop solutions to make smart and resilient
+              communities – an endless quest for technological innovations which
+              eventually led me to the fascinating world of Web Development.
+            </p>
+            <p className="pr-[16px] mt-[12px] ital">
+              After all, the web is just another form of our communities. Everything just turned digital.
+            </p>
+            <p className="pr-[16px] mt-[12px]">
+              Today, my mission remains, but it is now focused on developing
+              beautifully designed websites and web applications that foster
+              seamless and worthwhile digital community experience. Hungry to
+              further enhance my skills in this field, I am now open to working in
+              environments where I can learn more, grow more, and contribute
+              better.
             </p>
           </div>
           <div className="content--right col-span-2">
@@ -97,9 +100,9 @@ const About = () => {
               </div>
               <div className="logo--text--holder">
                 <div className="logo--container">
-                  <img src={Git} alt="Git" id="git" />
+                  <img src={Github} alt="Github" id="github" />
                 </div>
-                <h5>Git</h5>
+                <h5>Github</h5>
               </div>
 
               <div className="logo--text--holder">

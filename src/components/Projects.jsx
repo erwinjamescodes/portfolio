@@ -17,8 +17,9 @@ const Projects = () => {
           </h3>
 
           <h4 className="about--text font-regular mb-[12px] ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-            delectus beatae quasi explicabo iure inventore!
+            Here are some of my projects. Please feel free to take a look on the
+            demo sites and their corresponding codes. I'd be happy to hear your
+            thoughts about my work.
           </h4>
           {/* Grid items holder */}
           <div className="grid md:grid-cols-2 items-center gap-[16px]">

@@ -1,4 +1,5 @@
 import React from "react";
+import "./Contact.css";
 
 const Contact = () => {
   return (
@@ -23,18 +24,18 @@ const Contact = () => {
                 a message through this contact form.
                 <br></br>
                 <br></br>
-                You may also reach through the following channels:
+                You may also reach me through the following channels:
               </p>
               <p className=" mt-[16px]">Email:</p>
               <p className="font-bold ">egcaluag@gmail.com</p>
               <div className="contact--social--holder mt-[12px] flex gap-[8px]">
-                <div className="icon-holder h-[35px] w-[35px] bg-[#e6e6e6] rounded-[50%] flex items-center justify-center cursor-pointer">
+                <div className="icon-holder h-[35px] w-[35px] bg-[#e6e6e6] rounded-[50%] flex items-center justify-center cursor-pointer ">
                   <i className="fa-brands fa-linkedin-in"></i>
                 </div>
-                <div className="icon-holder h-[35px] w-[35px] bg-[#e6e6e6] rounded-[50%] flex items-center justify-center cursor-pointer">
+                <div className="icon-holder h-[35px] w-[35px] bg-[#e6e6e6] rounded-[50%] flex items-center justify-center cursor-pointer ">
                   <i className="fa-brands fa-github"></i>
                 </div>
-                <div className="icon-holder h-[35px] w-[35px] bg-[#e6e6e6] rounded-[50%] flex items-center justify-center cursor-pointer">
+                <div className="icon-holder h-[35px] w-[35px] bg-[#e6e6e6] rounded-[50%] flex items-center justify-center cursor-pointer ">
                   <i className="fa-brands fa-twitter"></i>
                 </div>
               </div>
