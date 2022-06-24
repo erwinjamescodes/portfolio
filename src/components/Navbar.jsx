@@ -115,7 +115,9 @@ const Navbar = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <li className="py-6 text-2xl resume">Resume</li>
+              <li className="py-6 text-2xl hover:bg-[#00d9db] resume">
+                Resume
+              </li>
             </a>
 
             <li className="mt-[60px]">

@@ -20,5 +20,10 @@ nav .resume {
   border: 2px solid #00d9db;
   padding: 5px 20px;
   border-radius: 8px;
+  transition: all 0.5s ease;
 }
 
+nav .resume:hover {
+  background-color: #00d9db;
+  color: black;
+}
