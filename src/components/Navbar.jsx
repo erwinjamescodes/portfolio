@@ -42,7 +42,13 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <li className="resume">Resume</li>
+            <a
+              href="https://drive.google.com/file/d/1aO92xzq2HVHdCVKoDCYmrXrCCPVPfYSk/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li className="resume">Resume</li>
+            </a>
           </ul>
         </div>
 
@@ -104,7 +110,14 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <li className="py-6 text-2xl resume">Resume</li>
+            <a
+              href="https://drive.google.com/file/d/1aO92xzq2HVHdCVKoDCYmrXrCCPVPfYSk/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <li className="py-6 text-2xl resume">Resume</li>
+            </a>
+
             <li className="mt-[60px]">
               <div className="socmed--container flex items-center justify-center gap-[18px]">
                 <a

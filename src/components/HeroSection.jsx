@@ -39,11 +39,11 @@ const HeroSection = () => {
       name="home"
       className="text-white w-full h-screen my-0 mx-auto pt-[200px] bg-[#0a192f]"
     >
-      <div className="main--wrapper w-[90%] md:w-[80%] my-0 mx-auto h-[calc(100%-70px)] relative">
+      <div className="main--wrapper w-[85%] md:w-[80%] my-0 mx-auto h-[calc(100%-70px)] relative">
         <h3 className="title--intro text-2xl sm:text-3xl md:text-3xl">
           Hi, my name is
         </h3>
-        <h1 className="title--name text-[#00d9db] text-5xl sm:text-7xl md:text-8xl font-medium pt-2 md:ml-[-5px]">
+        <h1 className="title--name text-[#00d9db] text-5xl sm:text-7xl md:text-8xl font-medium pt-2 ml-[-2px] md:ml-[-5px]">
           Erwin James.
         </h1>
 
