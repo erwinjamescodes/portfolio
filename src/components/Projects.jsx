@@ -31,12 +31,12 @@ const Projects = () => {
               >
                 <div className="opacity-0 group-hover:opacity-100 highlight w-[100%] h-[100%] flex items-center justify-center flex-col rounded-md">
                   <span className="text-sm text-white px-6 mb-2 text-center w-[80%] md:w-[70%]">
-                    An attempt to clone the popular movie streaming app using
-                    React JS and Tailwind CSS for the frontend component and
-                    Google’s Firebase for the backend. The app features a Login
-                    / Signup functionality and an option for the user to save
-                    preferred movies. The dataset utilized was sourced from The
-                    Movie Database API.
+                    This project is an attempt to clone the popular movie
+                    streaming app using React JS and Tailwind CSS for the
+                    frontend component and Google’s Firebase for the backend.
+                    The app features a Login / Signup functionality and an
+                    option for the user to save preferred movies. The dataset
+                    utilized was sourced from The Movie Database (TMDB) API.
                   </span>
                   <div className="buttons-holder mt-[8px] flex gap-[8px]">
                     <a
@@ -44,7 +44,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="py-[8px] px-[16px] rounded-md text-xs cursor-pointer font-medium bg-[#00d9db] text-black hover:bg-[#00b8bb] duration-300">
+                      <button className="py-[8px] px-[16px] rounded-md text-xs cursor-pointer font-medium bg-[#00d9db] text-black hover:bg-[#00b8bb] duration-300 border-[2px] border-solid border-[#00d9db]">
                         Live Site
                       </button>
                     </a>
@@ -68,8 +68,8 @@ const Projects = () => {
               >
                 <div className="opacity-0 group-hover:opacity-100 highlight w-[100%] h-[100%] flex items-center justify-center flex-col rounded-md">
                   <span className="text-sm text-white px-6 mb-2 text-center w-[80%] md:w-[70%]">
-                    A fully navigable and mobile-responsive template for an
-                    eCommerce Website developed using React JS and customized
+                    This fully navigable and mobile-responsive frontend template for an
+                    eCommerce Website was developed using React JS and customized
                     using Styled Components. The website’s routing mechanism is
                     made possible using the react-router-dom package.
                   </span>
@@ -79,7 +79,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="py-[8px] px-[16px] rounded-md text-xs cursor-pointer font-medium bg-[#00d9db] text-black hover:bg-[#00b8bb] duration-300">
+                      <button className="py-[8px] px-[16px] rounded-md text-xs cursor-pointer font-medium bg-[#00d9db] text-black hover:bg-[#00b8bb] duration-300 border-[2px] border-solid border-[#00d9db]">
                         Live Site
                       </button>
                     </a>
@@ -104,7 +104,7 @@ const Projects = () => {
                 <div className="opacity-0 group-hover:opacity-100 highlight w-[100%] h-[100%] flex items-center justify-center flex-col rounded-md">
                   <span className="text-sm text-white w-[80%] md:w-[70%] mb-2 text-center">
                     Built to help you organize your daily tasks, this web app
-                    features a filtering mechanism to help you separate your
+                    features a filtering mechanism to separate your
                     completed tasks from the unfinished ones. The app
                     automatically saves items placed by the user to the
                     browser’s local storage, allowing information to be
@@ -117,7 +117,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="py-[8px] px-[16px] rounded-md text-xs cursor-pointer font-medium bg-[#00d9db] text-black hover:bg-[#00b8bb] duration-300">
+                      <button className="py-[8px] px-[16px] rounded-md text-xs cursor-pointer font-medium bg-[#00d9db] text-black hover:bg-[#00b8bb] duration-300 border-[2px] border-solid border-[#00d9db]">
                         Live Site
                       </button>
                     </a>
@@ -142,12 +142,12 @@ const Projects = () => {
                 <div className="opacity-0 group-hover:opacity-100 highlight w-[100%] h-[100%] flex items-center justify-center flex-col rounded-md">
                   <span className="text-sm text-white px-6 mb-2 text-center w-[80%] md:w-[70%]">
                     Exploring the development efficiency provided by Material UI
-                    components, this attempt to replicate Facebook’s user
+                    and its components, this attempt to replicate Facebook’s user
                     interface features an option to switch easily between dark
                     and light modes. In addition to this, clicking the “add”
                     button also triggers a modal for creating new posts.
                     However, as the project is still under development,
-                    displaying new posts is still not available at this moment.
+                    mapping new posts is still not available at this moment.
                   </span>
                   <div className="buttons-holder mt-[8px] flex gap-[8px]">
                     <a
@@ -155,7 +155,7 @@ const Projects = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="py-[8px] px-[16px] rounded-md text-xs cursor-pointer font-medium bg-[#00d9db] text-black hover:bg-[#00b8bb] duration-300">
+                      <button className="py-[8px] px-[16px] rounded-md text-xs cursor-pointer font-medium bg-[#00d9db] text-black hover:bg-[#00b8bb] duration-300 border-[2px] border-solid border-[#00d9db]">
                         Live Site
                       </button>
                     </a>

@@ -62,7 +62,11 @@ const Contact = () => {
 
           {/* Contact form */}
           <div className="contact--form mt-[20px] md:mt-[0px] ">
-            <form action="" className="flex flex-col ">
+            <form
+              method="POST"
+              action="https://getform.io/f/6b98fade-4da0-4183-8e2e-8e9522def79e"
+              className="flex flex-col "
+            >
               <input
                 type="text"
                 className="bg-[#fff] p-2 rounded-md border-solid border-2"
