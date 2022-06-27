@@ -6,7 +6,7 @@ import "./About.css";
 import CSS from "../images/css3.png";
 import Figma from "../images/figma.png";
 import Firebase from "../images/firebase.png";
-import Git from "../images/git.png";
+// import Git from "../images/git.png";
 //import Github from "../images/github.png";
 import Html from "../images/html.png";
 import Js from "../images/js.png";
@@ -26,12 +26,12 @@ const About = () => {
         <div className="content lg:grid grid-cols-5 gap-8">
           <div className="content--left mb-[20px] col-span-3 ">
             <h4 className="about--text font-bold mb-[12px] ">
-              Hello, I am Erwin James! I enjoy transforming plans, designs and
+              Hello, I am Erwin James! I enjoy transforming plans, designs, and
               ideas into reality.
             </h4>
             <p className="pr-[16px]">
               Being an Urban Planner by profession, I ventured on a mission to
-              search for noble solutions to make smarter and more resilient
+              search for solutions to make smarter and more resilient
               communities – an endless quest for technological innovations which
               eventually led me to the fascinating world of Web Development.
             </p>
@@ -44,15 +44,13 @@ const About = () => {
               Today, my mission still remains, but I am more focused now on
               developing beautifully designed websites and web applications that
               foster seamless and worthwhile digital community experiences.
-              Hungry to further enhance my knowledge on this field, I am now
-              open to working in environments where I can learn more, grow more,
-              and contribute better.
+              Hungry to further enhance my knowledge in this field, I am now
+              open to working in environments where I can learn, grow, and
+              contribute better.
             </p>
           </div>
           <div className="content--right col-span-2">
-            <h4 className="logo--text font-bold mb-[12px]">
-              Here are a few technologies that I've been using recently:
-            </h4>
+            <h4 className="logo--text font-bold mb-[12px] ">My Techstack</h4>
 
             {/* LOGOS */}
 

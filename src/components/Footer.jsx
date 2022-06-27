@@ -1,5 +1,4 @@
 import React from "react";
-import EJLogo from "../images/logo-white-teal.png";
 
 const Footer = () => {
   return (

@@ -18,9 +18,9 @@ const Projects = () => {
           </h3>
 
           <h4 className="about--text font-regular mb-[12px] ">
-            Here are some of my recent projects. Please feel free to take a look
-            on the demo sites and their corresponding codes. I'd be happy to
-            hear your thoughts about my work.
+            Feel free to take a look
+            at the demo sites and their corresponding codes. I'd be happy to
+            hear your thoughts about my work!
           </h4>
           {/* Grid items holder */}
           <div className="grid md:grid-cols-2 items-center gap-[16px]">
