@@ -18,9 +18,8 @@ const Projects = () => {
           </h3>
 
           <h4 className="about--text font-regular mb-[12px] ">
-            Feel free to take a look
-            at the demo sites and their corresponding codes. I'd be happy to
-            hear your thoughts about my work!
+            Feel free to take a look at the demo sites and their corresponding
+            codes. I'd be happy to hear your thoughts about my work!
           </h4>
           {/* Grid items holder */}
           <div className="grid md:grid-cols-2 items-center gap-[16px]">
@@ -68,10 +67,11 @@ const Projects = () => {
               >
                 <div className="opacity-0 group-hover:opacity-100 highlight w-[100%] h-[100%] flex items-center justify-center flex-col rounded-md">
                   <span className="text-sm text-white px-6 mb-2 text-center w-[80%] md:w-[70%]">
-                    This fully navigable and mobile-responsive frontend template for an
-                    eCommerce Website was developed using React JS and customized
-                    using Styled Components. The website’s routing mechanism is
-                    made possible using the react-router-dom package.
+                    This fully navigable and mobile-responsive frontend template
+                    for an eCommerce Website was developed using React JS and
+                    customized using Styled Components. The website’s routing
+                    mechanism is made possible using the react-router-dom
+                    package.
                   </span>
                   <div className="buttons-holder mt-[8px] flex gap-[8px]">
                     <a
@@ -104,12 +104,12 @@ const Projects = () => {
                 <div className="opacity-0 group-hover:opacity-100 highlight w-[100%] h-[100%] flex items-center justify-center flex-col rounded-md">
                   <span className="text-sm text-white w-[80%] md:w-[70%] mb-2 text-center">
                     Built to help you organize your daily tasks, this web app
-                    features a filtering mechanism to separate your
-                    completed tasks from the unfinished ones. The app
-                    automatically saves items placed by the user to the
-                    browser’s local storage, allowing information to be
-                    displayed even after the tab has been closed or refreshed.
-                    Feel free to use this app anytime you want!
+                    features a filtering mechanism to separate your completed
+                    tasks from the unfinished ones. The app automatically saves
+                    items placed by the user to the browser’s local storage,
+                    allowing information to be displayed even after the tab has
+                    been closed or refreshed. Feel free to use this app anytime
+                    you want!
                   </span>
                   <div className="buttons-holder mt-[8px] flex gap-[8px]">
                     <a
@@ -142,12 +142,12 @@ const Projects = () => {
                 <div className="opacity-0 group-hover:opacity-100 highlight w-[100%] h-[100%] flex items-center justify-center flex-col rounded-md">
                   <span className="text-sm text-white px-6 mb-2 text-center w-[80%] md:w-[70%]">
                     Exploring the development efficiency provided by Material UI
-                    and its components, this attempt to replicate Facebook’s user
-                    interface features an option to switch easily between dark
-                    and light modes. In addition to this, clicking the “add”
-                    button also triggers a modal for creating new posts.
-                    However, as the project is still under development,
-                    mapping new posts is still not available at this moment.
+                    and its components, this attempt to replicate Facebook’s
+                    user interface features an option to switch easily between
+                    dark and light modes. In addition to this, clicking the
+                    “add” button also triggers a modal for creating new posts.
+                    However, as the project is still under development, mapping
+                    new posts is still not available at this moment.
                   </span>
                   <div className="buttons-holder mt-[8px] flex gap-[8px]">
                     <a

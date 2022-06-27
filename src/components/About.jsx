@@ -36,17 +36,17 @@ const About = () => {
               eventually led me to the fascinating world of Web Development.
             </p>
             <p className="pr-[16px] mt-[12px] ital">
-              Well, the web, after all, is just an evolved form of the
-              communities that we know. We connect, we communicate, we interact.
-              Everything just turned digital.
+              After all, the web is just an evolved form of the communities that
+              we know. We connect, we communicate, we interact. Everything just
+              turned digital.
             </p>
             <p className="pr-[16px] mt-[12px]">
               Today, my mission still remains, but I am more focused now on
               developing beautifully designed websites and web applications that
               foster seamless and worthwhile digital community experiences.
-              Hungry to further enhance my knowledge in this field, I am now
-              open to working in environments where I can learn, grow, and
-              contribute better.
+              Hungry to further enhance my knowledge in this field, I am open to
+              working in environments where I can learn, grow, and contribute
+              more.
             </p>
           </div>
           <div className="content--right col-span-2">
