@@ -3,7 +3,6 @@ import "./Navbar.css";
 import EJLogo from "../images/logo-white-teal.png";
 import { Link } from "react-scroll";
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleToggle = () => setNav((prev) => !prev);
@@ -43,7 +42,7 @@ const Navbar = () => {
               </Link>
             </li>
             <a
-              href="https://drive.google.com/file/d/1i_Fg8aRl_d-ytufTB62MDto7jVeCLli5/view?usp=sharing"
+              href="https://drive.google.com/file/d/1mFCpCgAnhXoKt5LbSHS9FCY2s_4sSexk/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
@@ -111,7 +110,7 @@ const Navbar = () => {
               </Link>
             </li>
             <a
-              href="https://drive.google.com/file/d/1i_Fg8aRl_d-ytufTB62MDto7jVeCLli5/view?usp=sharing"
+              href="https://drive.google.com/file/d/1mFCpCgAnhXoKt5LbSHS9FCY2s_4sSexk/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
