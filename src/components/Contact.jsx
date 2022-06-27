@@ -27,7 +27,9 @@ const Contact = () => {
                 You may also reach me through the following channels:
               </p>
               <p className=" mt-[16px]">Email:</p>
-              <p className="font-bold ">egcaluag@gmail.com</p>
+              <a href="mailto:egcaluag@gmail.com">
+                <p className="font-bold ">egcaluag@gmail.com</p>
+              </a>
               <div className="contact--social--holder mt-[12px] flex gap-[8px]">
                 <a
                   href="https://www.linkedin.com/in/erwin-james-caluag-6b2304150/"
@@ -72,18 +74,21 @@ const Contact = () => {
                 className="bg-[#fff] p-2 rounded-md border-solid border-2"
                 placeholder="Name"
                 name="name"
+                required
               />
               <input
                 type="email"
                 className="my-4 p-2 bg-[#fff] rounded-md border-solid border-2"
                 placeholder="Email"
                 name="email"
+                required
               />
               <textarea
                 className="bg-[#fff] p-2 rounded-md border-solid border-2"
                 name="message"
                 rows="6"
                 placeholder="Message"
+                required
               ></textarea>
               <button className="text-black my-4 rounded-md px-[12px] py-[6px] bg-[#00d9d2] self-start md:max-w-[30%]">
                 Send Message
