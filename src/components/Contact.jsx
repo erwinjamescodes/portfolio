@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Contact.css";
 
 const Contact = () => {
@@ -15,6 +15,12 @@ const Contact = () => {
   const inputMessageHandler = (e) => {
     setMessageValue(e.target.value);
   };
+
+  useEffect(() => {
+    setNameValue("");
+    setEmailValue("");
+    setMessageValue("");
+  }, []);
 
   return (
     <section
