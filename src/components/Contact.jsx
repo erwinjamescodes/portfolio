@@ -1,26 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Contact.css";
 
 const Contact = () => {
-  const [nameValue, setNameValue] = useState("");
-  const [emailValue, setEmailValue] = useState("");
-  const [messageValue, setMessageValue] = useState("");
-
-  const inputNameHandler = (e) => {
-    setNameValue(e.target.value);
-  };
-  const inputEmailHandler = (e) => {
-    setEmailValue(e.target.value);
-  };
-  const inputMessageHandler = (e) => {
-    setMessageValue(e.target.value);
-  };
-
-  useEffect(() => {
-    setNameValue("");
-    setEmailValue("");
-    setMessageValue("");
-  }, []);
 
   return (
     <section
@@ -95,8 +76,7 @@ const Contact = () => {
                 placeholder="Name"
                 name="name"
                 required
-                value={nameValue}
-                onChange={inputNameHandler}
+    
               />
               <input
                 type="email"
@@ -104,8 +84,7 @@ const Contact = () => {
                 placeholder="Email"
                 name="email"
                 required
-                value={emailValue}
-                onChange={inputEmailHandler}
+           
               />
               <textarea
                 className="bg-[#fff] p-2 rounded-md border-solid border-2"
@@ -113,8 +92,7 @@ const Contact = () => {
                 rows="6"
                 placeholder="Message"
                 required
-                value={messageValue}
-                onChange={inputMessageHandler}
+          
               ></textarea>
               <button className="text-black my-4 rounded-md px-[12px] py-[6px] bg-[#00d9d2] self-start md:max-w-[30%]">
                 Send Message
