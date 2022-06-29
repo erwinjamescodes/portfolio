@@ -51,7 +51,7 @@ const HeroSection = () => {
           <div className="static-txt text-xl sm:text-2xl md:text-3xl ">
             I'm a{" "}
             <span className="frontend text-[#00d9db] font-medium ">
-              Frontend Developer
+              Frontend Web Developer
             </span>{" "}
             &&
           </div>
