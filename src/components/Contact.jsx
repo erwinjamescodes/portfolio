@@ -2,7 +2,6 @@ import React from "react";
 import "./Contact.css";
 
 const Contact = () => {
-
   return (
     <section
       name="contact"
@@ -76,7 +75,6 @@ const Contact = () => {
                 placeholder="Name"
                 name="name"
                 required
-    
               />
               <input
                 type="email"
@@ -84,7 +82,6 @@ const Contact = () => {
                 placeholder="Email"
                 name="email"
                 required
-           
               />
               <textarea
                 className="bg-[#fff] p-2 rounded-md border-solid border-2"
@@ -92,9 +89,8 @@ const Contact = () => {
                 rows="6"
                 placeholder="Message"
                 required
-          
               ></textarea>
-              <button className="text-black my-4 rounded-md px-[12px] py-[6px] bg-[#00d9d2] self-start md:max-w-[30%]">
+              <button className="text-black my-4 rounded-md px-[12px] py-[6px] bg-[#00d9d2] hover:bg-[#00b8bb] duration-300 self-start md:max-w-[30%]">
                 Send Message
               </button>
             </form>

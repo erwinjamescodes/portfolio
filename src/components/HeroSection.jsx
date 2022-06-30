@@ -10,7 +10,7 @@ const HeroSection = () => {
       "Urban Planner.        ",
       "Cyclist.        ",
       "Anime Enthusiast.        ",
-      "Kpop Fan. I love Twice!        ",
+      "Kpop Fan. I stan Twice!        ",
       "Meme Connoisseur.        ",
     ];
     let count = 0;
